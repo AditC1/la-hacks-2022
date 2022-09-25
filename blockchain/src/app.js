@@ -1,7 +1,7 @@
 App = {
     loading: false,
     contracts: {},
-  
+
     load: async () => {
       await App.loadWeb3()
       await App.loadAccount()
@@ -19,7 +19,7 @@ App = {
       }
       // Modern dapp browsers...
       if (window.ethereum) {
-        window.web3 = new Web3(ethereum)
+        window.ethereum = new Web3(ethereum)
         try {
           // Request account access if needed
           await ethereum.enable()
@@ -30,9 +30,9 @@ App = {
         }
       }
       // Legacy dapp browsers...
-      else if (window.web3) {
+      else if (window.ethereum) {
         App.web3Provider = web3.currentProvider
-        window.web3 = new Web3(web3.currentProvider)
+        window.ethereum = new Web3(web3.currentProvider)
         // Acccounts always exposed
         web3.eth.sendTransaction({/* ... */})
       }
@@ -44,6 +44,7 @@ App = {
   
     loadAccount: async () => {
       // Set the current blockchain account
+      web3.eth.defaultAccount = web3.eth.accounts[0];  
       App.account = web3.eth.accounts[0]
     },
   
