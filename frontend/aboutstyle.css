@@ -1,27 +1,15 @@
 body {
-    background-color: #013A6B;
-    background-image: -webkit-linear-gradient(40deg, #120033 50%, #a7bfe8 50%);
-
+    background-color: #a7bfe8;
 }
 
-.container {
-    align-items: left;
-    top: 30vh; 
-    margin-left: 2vh;
-    justify-content: left;
+.description {
+    align-items: right;
+    top: 20vh;
+    justify-content: right;
     position: absolute;
 }
 
-h1 {
-    align-items: center;
-    font-size: 35px;
-    color: white;
-    font-family: Tahoma, sans-serif;
-    width: 100%;
-    text-align: center;  
-}
-
-p {
+ul {
     color: white;
     font-family: Tahoma, sans-serif;
 }
@@ -47,4 +35,10 @@ p {
     color: white;
     font-family: Tahoma, sans-serif;
     font-size: 20px;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    color:white;
+    text-align: center;
 }
