@@ -1,13 +1,16 @@
 body {
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(40deg, #120033 50%, #a7bfe8 50%);
+    background-image: -webkit-linear-gradient(0deg, #120033 50%, #a7bfe8 50%);
+}
 
+.img-container {
+    float: right;
+    margin-left: auto;
 }
 
 .container {
     align-items: left;
     top: 30vh; 
-    margin-left: 2vws;
     justify-content: left;
     position: absolute;
 }
@@ -48,3 +51,17 @@ p {
     font-family: Tahoma, sans-serif;
     font-size: 20px;
 }
+
+img {
+    height: auto;
+    max-width: 20%;
+    float: right;
+    display: flex;
+    margin-top: 15%;
+}
+
+
+
+
+  
+  
