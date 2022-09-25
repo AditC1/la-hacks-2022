@@ -1,6 +1,6 @@
 body {
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(0deg, #120033 50%, #a7bfe8 50%);
+    background-image: -webkit-linear-gradient(0deg, #001050 50%, #aabbff 50%);
 }
 
 .img-container {
@@ -42,13 +42,13 @@ p {
     /*specifies spacing between flexbox elements*/
     margin: 1vw; 
     padding: 14px 16px;
-    color: white;
+    color: black;
 }
 
 .navigation-links > div > a { /*specifies styling for text*/
     text-align: right; 
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: Tahoma, sans-serif;
     font-size: 20px;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: #a7bfe8;
+    background-color: #aabbff;
 }
 
 .description {
@@ -10,7 +10,7 @@ body {
 }
 
 ul {
-    color: white;
+    color: black;
     font-family: Tahoma, sans-serif;
 }
 
@@ -26,19 +26,19 @@ ul {
     /*specifies spacing between flexbox elements*/
     margin: 1vw; 
     padding: 14px 16px;
-    color: white;
+    color: black;
 }
 
 .navigation-links > div > a { /*specifies styling for text*/
     text-align: right; 
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: Tahoma, sans-serif;
     font-size: 20px;
 }
 
 h1 {
     font-family: Tahoma, sans-serif;
-    color:white;
+    color:black;
     text-align: center;
 }
