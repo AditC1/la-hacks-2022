@@ -7,7 +7,7 @@ body {
 .container {
     align-items: left;
     top: 30vh; 
-    margin-left: 2vh;
+    margin-left: 2vws;
     justify-content: left;
     position: absolute;
 }
