@@ -108,7 +108,7 @@ App = {
         $newTaskTemplate.show()
       }
     },
-
+  
     createTask: async () => {
       App.setLoading(true)
       const content = $('#newTask').val()
@@ -122,7 +122,7 @@ App = {
       await App.todoList.toggleCompleted(taskId)
       window.location.reload()
     },
-    
+  
     setLoading: (boolean) => {
       App.loading = boolean
       const loader = $('#loader')
