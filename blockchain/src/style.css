@@ -11,6 +11,7 @@ body {
 .container {
     align-items: left;
     top: 30vh; 
+    margin-left: 3vw;
     justify-content: left;
     position: absolute;
 }
@@ -52,14 +53,31 @@ p {
     font-size: 20px;
 }
 
-img {
-    height: auto;
-    max-width: 20%;
-    float: right;
+.flex-container {
     display: flex;
-    margin-top: 15%;
+    flex-direction: col;
+    position: relative;
+    top: 5vh;
 }
 
+.flex-container > .logo {
+    float: left;
+    margin-left: 50vw;
+    display: flex;
+    margin-top: 6%;
+    border-radius: 25px;
+    padding: 20px;
+    width: 50px;
+    height: 200px;
+
+}
+
+
+
+img {
+    height : 500px;
+    width: auto;
+}
 
 
 
