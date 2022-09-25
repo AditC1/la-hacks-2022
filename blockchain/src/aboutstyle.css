@@ -7,11 +7,14 @@ body {
     top: 20vh;
     justify-content: right;
     position: absolute;
+
 }
 
 ul {
     color: black;
     font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    font-family: Calibri, sans-serif;
 }
 
 .navigation-links {
@@ -34,11 +37,12 @@ ul {
     text-decoration: none;
     color: black;
     font-family: Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 h1 {
-    font-family: Tahoma, sans-serif;
+    font-family: Calibri, sans-serif;
     color:black;
     text-align: center;
+    font-size: 40px;
 }

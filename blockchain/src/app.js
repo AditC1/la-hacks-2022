@@ -76,7 +76,16 @@ App = {
       // Update loading state
       App.setLoading(false)
     },
-  
+    
+    // myFunction: async() => {
+        
+    //     App.setLoading(true)
+    //     await App.todoList.toggleCompleted(iterate)
+    //     window.location.reload()
+    //     iterate = iterate + 1;
+
+    // },
+
     renderTasks: async () => {
       // Load the total task count from the blockchain
       const taskCount = await App.todoList.taskCount()
@@ -97,7 +106,6 @@ App = {
                         .prop('name', taskId)
                         .prop('checked', taskCompleted)
                         .on('click', App.toggleCompleted)
-  
         // Put the task in the correct list
         if (taskCompleted) {
           $('#completedTaskList').append($newTaskTemplate)

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Wish List</title>
+    <title>Queue</title>
 
     <!-- Bootstrap -->
     <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 
     <div class="navigation-links">
       <div><a href="home.html">Home</a></div>
-      <div><a href="index.html">List</a></div>
+      <div><a href="index.html">Queue</a></div>
       <div><a href="about.html">About</a></div>
     </div>
 
@@ -47,7 +47,7 @@
           text-decoration: none;
           color: black;
           font-family: Tahoma, sans-serif;
-          font-size: 20px;
+          font-size: 30px;
       }
     </style>
 
@@ -76,7 +76,7 @@
   </head>
   <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="http://www.dappuniversity.com/free-download" target="_blank">Wish List</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="https://devpost.com/software/ee-l781zt" target="_blank">ElectriQuity</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap d-none d-sm-none d-sm-block">
           <small><a class="nav-link" href="#"><span id="account"></span></a></small>
@@ -91,7 +91,7 @@
           </div>
           <div id="content">
             <form onSubmit="App.createTask(); return false;">
-              <input id="newTask" type="text" class="form-control" placeholder="Add task..." required>
+              <input id="newTask" type="text" class="form-control" placeholder="Add Country..." required>
               <input type="submit" hidden="">
             </form>
             <ul id="taskList" class="list-unstyled">
@@ -102,8 +102,7 @@
                 </label>
               </div>
             </ul>
-            <button type = "button">Remove From Top Of List</button>
-           <!-- <ul id="completedTaskList" class="list-unstyled">
+          <!--  <ul id="completedTaskList" class="list-unstyled">
             </ul> -->
           </div>
         </main>

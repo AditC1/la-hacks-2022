@@ -18,7 +18,7 @@ body {
 
 h1 {
     align-items: center;
-    font-size: 35px;
+    font-size: 50px;
     color: white;
     font-family: Tahoma, sans-serif;
     width: 100%;
@@ -26,8 +26,9 @@ h1 {
 }
 
 p {
-    color: white;
+    color: #FDD200;
     font-family: Tahoma, sans-serif;
+    font-size: 25px;
 }
 
 .navigation-links {
@@ -50,7 +51,7 @@ p {
     text-decoration: none;
     color: black;
     font-family: Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .flex-container {
@@ -62,7 +63,7 @@ p {
 
 .flex-container > .logo {
     float: left;
-    margin-left: 50vw;
+    margin-left: 55vw;
     display: flex;
     margin-top: 6%;
     border-radius: 25px;
@@ -71,7 +72,6 @@ p {
     height: 200px;
 
 }
-
 
 
 img {
